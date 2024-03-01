@@ -8,7 +8,7 @@ import pandas as pd
 dir = Path(__file__).resolve().parent.parent
 sys.path.append(str(dir))
 
-model = pickle.load(open('C:\\Users\\USER\\Desktop\\ML_projects\\Sleep_lifestyle_Health\\logistic_model.pkl','rb'))
+model = pickle.load(open('./logistic_model.pkl','rb'))
 
 def main():
     st.write("""
